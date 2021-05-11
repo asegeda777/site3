@@ -1,1 +1,374 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{
+  margin: 0px;
+}
+
+.width-styler{
+  width: 1305px;
+  margin: 0 auto;
+  padding-top: 175px;
+}
+
+input{
+  border: 0;
+  border-bottom: 1px solid gray;
+  padding: 20px;
+  background: none;
+  margin: 10px;
+  color: white;
+  line-height: 1.5;
+}
+
+input::placeholder{
+  color: white;
+}
+
+input:focus{
+  outline: none;
+}
+
+// background
+.background{
+  background: url(img/page-bck.png) no-repeat center;
+  height: 5503px;
+}
+
+.travel-box{
+  display: flex;
+  flex-direction: column;
+  border: #BF792C 10px solid;
+  width: 960px;
+  height: 470px;
+  margin: 0 auto 500px;
+}
+
+.ante-title{
+  color: white;
+  font-size: 24px;
+  font-family: "Raleway";
+  font-weight: bold;
+  line-height: 2.083;
+  text-align: center;
+  text-transform: uppercase;
+
+  padding-top: 80px;
+}
+
+.ante-title::after{
+  content: "";
+  display: block;
+  margin: 0 auto;
+  height: 3px;
+  width: 91px;
+  background-color: white;
+  text-align: center;
+}
+
+.title{
+  color: white;
+  text-transform: capitalize;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 0.625;
+  text-align: center;
+  font-size: 80px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  
+  padding-top: 20px;
+}
+
+.post-title{
+  color: #BF792C;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: "Raleway";
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 2.083;
+  text-align: center;
+  margin-bottom: 175px;
+
+  padding-top: 50px;
+}
+
+// about-me
+.about-me{
+  background: #1D1D1D;
+  height: 795px;
+  padding: 10%;
+}
+
+.card-item{
+  background: url(img/card-item.png) center no-repeat;
+  margin: 10px auto;
+  padding: 30px;
+  
+  padding-right: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-bottom: 250px;
+
+  display: flex;
+  flex-direction: row;
+
+  box-shadow: 150px 0 0 -110px#373737;
+}
+
+.card-item-reverse{
+  display: flex;
+  flex-direction: row;
+}
+
+// contact
+.contact{
+  margin: 100px 0 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-item-content{
+  display: flex;
+  flex-direction: column;
+}
+
+.card-item-reverse-content{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  background-color: #373737;
+
+  
+  padding-left: 20px;
+  padding-top: 20px;
+  margin: 25px 0;
+}
+
+.card-item-reverse-img{
+  background: url(img/card-item-reverse-img.png) left no-repeat;
+  width: 588px;
+  height: 658px;
+  box-shadow: -50px 0px 0px -19px #373737;
+}
+
+.card-item-title{
+  font-size: 20.666px;
+  color: #BF792C;
+  text-transform: uppercase;
+  line-height: 1.355;
+  margin-bottom: 30px;
+}
+
+.card-item-title::after{
+  content: "";
+  display: block;
+  height: 3px;
+  width: 91px;
+  background-color: #BF792C;
+}
+
+.card-item-text{
+  color: white;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+.card-item-btn{
+  color: #BF792C;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Raleway";
+  font-weight: bold;
+  line-height: 1.75;
+}
+
+// article-content
+.article-content{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 250px;
+}
+
+.lastest-articles{
+  margin: 50px auto;
+}
+
+.article-content-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+// article-content-item
+.article-content-item{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 530px;
+}
+
+.article-content-item-2{
+  margin-top: 100px;
+}
+
+.article-content-image{
+  box-shadow: -30px -30px 0 #373737;
+  box-sizing: border-box;
+}
+
+.item-1{
+  background: url(img/article-image-1.png) center no-repeat;
+  width: 338px;
+  height: 236px;
+}
+
+.item-2{
+  background: url(img/article-image-2.png) center no-repeat;
+  width: 338px;
+  height: 236px;
+}
+
+.item-3{
+  background: url(img/article-image-3.png) center no-repeat;
+  width: 338px;
+  height: 236px;
+}
+
+.article-content-title{
+  font-size: 20px;
+  font-family: "DroidSerif";
+  color: #BF792C;
+  line-height: 1.4;
+  text-align: left;
+  margin: 50px 0 30px;
+}
+
+.article-content-title::after{
+  content: "";
+  display: block;
+  height: 3px;
+  width: inherit;
+  background-color: #BF792C;
+  text-align: left;
+}
+
+// gallery
+.gallery{
+  width: 1325px;
+  height: 1207px;
+  display: block;
+  position: static;
+}
+
+.gallery-title{
+  text-align: left;
+  margin-left: 50px;
+}
+
+.gallery-item-1{
+  display: inline-block;
+  background: url(img/gallery-img-1.png) center no-repeat;
+  width: 370px;
+  height: 349px;
+
+  position: relative;
+  top: 70px;
+  left: 72px;
+}
+
+.gallery-item-2{
+  display: inline-block;
+  background: url(img/gallery-img-2.png) center no-repeat;
+  width: 370px;
+  height: 349px;
+
+  position: relative;
+  top: 0px;
+  left: 100px;
+}
+
+.gallery-item-3{
+  display: inline-block;
+  background: url(img/gallery-img-3.png) center no-repeat;
+  width: 370px;
+  height: 204px;
+
+  position: relative;
+  top: 0px;
+  left: 130px;
+}
+
+.gallery-item-4{
+  display: inline-block;
+  background: url(img/gallery-img-4.png) center no-repeat;
+  width: 440px;
+  height: 558px;
+
+  position: relative;
+  top: 100px;
+}
+
+.gallery-item-5{
+  display: inline-block;
+  background: url(img/gallery-img-5.png) center no-repeat;
+  width: 853px;
+  height: 349px;
+
+  position: relative;
+  top: -180px;
+  left: 30px;
+}
+
+.gallery-item-6{
+  display: inline-block;
+  background: url(img/gallery-img-6.png) center no-repeat;
+  width: 370px;
+  height: 349px;
+
+  position: relative;
+  top: -145px;
+  left: 475px;
+}
+
+.gallery-item-7{
+  display: inline-block;
+  background: url(img/gallery-img-7.png) center no-repeat;
+  width: 370px;
+  height: 204px;
+
+  position: relative;
+  left: 500px;
+  top: -290px;
+}
+
+.show-more-btn{
+  display: block;
+  width: 100px;
+  height: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+// contact
+.send-message-btn{
+  margin: 20px 50px;
+}
+
+// social
+.social > nav{
+  text-align: center;
+}
+
+.social > nav > a{
+  
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  background-color: #AD7835;
+  margin: 0 15px;
+  padding: 20px;
+  height: 80px;
+  width: 80px;
+}
